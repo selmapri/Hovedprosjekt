@@ -43,9 +43,9 @@ def print_datasets(data):
 
     for i, hit in enumerate(hits, start=1):
 
-        print(f"--- Datasett {i} ---")
+        print(f"--- Datasett {i}[{hit.get('organization', 'Ukjent')}] ---")
 
         # Skriv ut hele treffet slik at vi ser strukturen
-        print(json.dumps(hit, indent=2, ensure_ascii=False))
+        """print(json.dumps(hit, indent=2, ensure_ascii=False))"""
 
         print()

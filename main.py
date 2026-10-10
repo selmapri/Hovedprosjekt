@@ -7,34 +7,6 @@ from data_norge import search_datasets, print_datasets
 def main():
 
     print("=" * 50)
-    print("DATA.NORGE.NO")
-    print("=" * 50)
-
-    query = input(
-        "\nHva vil du søke etter? "
-    )
-
-    try:
-
-        data = search_datasets(query)
-
-        print("\nResultater:\n")
-
-        print_datasets(data)
-
-    except Exception as error:
-
-        print(f"\nFeil: {error}")
-
-
-if __name__ == "__main__":
-    main()
-
-
-""""
-def main():
-
-    print("=" * 50)
     print("NORSKE OFFENTLIGE HELSEDATA")
     print("=" * 50)
 
@@ -45,7 +17,7 @@ def main():
     print("\nSøker på Data.norge.no...")
 
     data = search_datasets(
-        "spesialisthelsetjenesten"
+        "helse"
     )
 
     print("\nDatasett funnet:\n")
@@ -96,5 +68,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-
-"""
