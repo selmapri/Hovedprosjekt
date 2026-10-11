@@ -4,12 +4,18 @@ Python-prosjekt med fokus på uthenting og bearbeiding av data om helseinstitusj
 
 - [OpenCage Geocoding API](https://opencagedata.com/)
 - [data.norge.no](https://data.norge.no/)
+## Instruksjoner
+
+- Hente data fra API-kilder
+
+- Skaffe egen API-nøkkel
 
 ## Prosjektstatus
 
 Under utvikling. Foreløpig fokuserer prosjektet på datauthenting. Databearbeiding, integrering og analyse er ennå ikke utviklet.
 
 ## Teknologier
+
 
 - Python
 - REST API-er
